@@ -194,3 +194,109 @@
 
 // var todayDate = new Date();
 // document.write(todayDate);
+
+
+// var now = new Date();
+// var currentMonth = now.getMonth();
+// var months = ['january','february','march','april','may','june','july','august','september','october','november','december'];
+// document.write('Current Month : ' + months[currentMonth]);
+
+
+// var now = new Date();
+// var today = now.getDay();
+// var days = ['sun','mon','tus','wed','thr','fri','sat'];
+// document.write("Today is : " + days[today]);
+
+
+// var now = new Date();
+// var today = now.getDay();
+// var days = ['sun','mon','tus','wed','thr','fri','sat'];
+// if (today === 0 || today === 1){
+//     document.write("today is fun day");
+// }
+// else{
+//     document.wri('Working day');
+// }
+
+
+// var now = new Date();
+// var today = now.getDate();
+// if (today < 15) {
+//     document.write('First fifteen days of the month');
+// }
+// else{
+//     document.write('Last fifteen days of month.')
+// }
+
+
+// var now = new Date();
+// var currentHour = now.getHours();
+// alert(currentHour);
+// if (currentHour < 12) {
+//     document.write('AM time');
+// }
+// else {
+//     document.write('PM time')
+// }
+
+
+// file No # 4 functions
+
+
+// function tellTime() {
+//     var now = new Date();
+//     document.write(now);
+// }
+
+// tellTime();
+
+
+// function greetUser (){
+//     var fName = prompt('Enter firstName : ');
+//     var lName = prompt('Enter LastName : ');
+//     var fullName = fName + ' ' + lName;
+//     document.write('Welcome ' + fullName);
+// }
+
+// greetUser();
+
+
+// function addNum (){
+//     var a = +prompt('Enter firstName : ');
+//     var b = +prompt('Enter LastName : ');
+//     var c = a + b;
+//     document.write(c);
+// }
+
+// addNum();
+
+
+// function calculator() {
+//     var a = +prompt('Enter firstNumber : ');
+//     var b = +prompt('Enter secondNumber : ');
+//     var opr = prompt('Enter Operator : ');
+//     if (opr === '+') {
+//         document.write(a + b);
+//     }
+//     else if (opr === '-') {
+//         document.write(a - b);
+//     }
+//     else if (opr === '*') {
+//         document.write(a * b);
+//     }
+//     else if (opr === '/') {
+//         document.write(a / b);
+//     }
+//     else {
+//         alert('Enter right operator.')
+//     }
+// }
+
+// calculator();
+
+
+// function arg (a){
+//     document.write(a * a);
+// }
+
+// arg(2);
